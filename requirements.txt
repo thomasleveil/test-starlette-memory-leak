@@ -2,3 +2,5 @@ python-on-whales==0.68.0
 pytest==7.4.3
 pytest-html==4.1.1
 flaky==3.7.0
+pandas==2.1.4
+matplotlib==3.8.2

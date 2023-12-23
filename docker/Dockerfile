@@ -1,7 +1,7 @@
 # syntax=docker/dockerfile:1
 
 ARG PYTHON_VERSION
-FROM localhost:5000/python:${PYTHON_VERSION:?} as base
+FROM python:${PYTHON_VERSION:?} as base
 
 LABEL PYTHON_VERSION=${PYTHON_VERSION}
 
@@ -15,7 +15,10 @@ RUN --mount=type=cache,target=/var/cache/apt \
             siege
 
 RUN --mount=type=cache,target=/root/.cache \
-    pip install requests
+    pip install \
+        guppy3 \
+        objgraph \
+        requests
 
 
 ARG UVICORN_VERSION=0.18.3
