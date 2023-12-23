@@ -4,5 +4,5 @@ addopts = "-vv --html=pytest_report.html --self-contained-html"
 testpaths = [
     "tests",
 ]
-generate_report_on_test = true
+
 initial_sort = "original"
