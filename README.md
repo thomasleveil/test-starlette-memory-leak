@@ -19,7 +19,7 @@ pip install -r requirements.txt
 ## Usage
 
 ```shell
-pytest -vv --html=pytest_report.html --self-contained-html
+pytest
 ```
 
 and be patient
