@@ -9,8 +9,8 @@ import matplotlib.pyplot as plt
 
 
 ####################################################
-num_queries = 100_000
-num_middleware = [0, 1, 5, 10]
+num_queries = 10_000
+num_middleware = [0, 1, 2, 3, 4, 5, 6, 10]
 test_matrix = [
     {
         "python": "3.12.1",
