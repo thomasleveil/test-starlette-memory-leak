@@ -5,6 +5,10 @@ This project is a test suite trying to detect a memory leak in Starlette, when u
 See https://github.com/encode/starlette/discussions/1843
 
 
+![](report/starlette-0.34.0.png)
+![](report/starlette-0.19.1.png)
+
+
 ## Requirements
 
 - docker
